@@ -1,0 +1,115 @@
+<!DOCTYPE html> 
+    <html lang="en"> 
+        <head> 
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0"> <title>Placement Management System</title> 
+            <style> 
+            body { 
+                font-family: Arial, sans-serif;
+                 margin: 0; 
+                 padding: 0; 
+                 color:white;
+                 background-color: #73a3d7; 
+                 align-items: center;
+                 
+                }
+            header {
+                background-color: #333;
+                color: #fff;
+                padding: 10px 0;
+                text-align: center;
+            }
+
+            header  {
+                margin: 0;
+                font-family: Georgia, 'Times New Roman', Times, serif;
+                padding:10px
+
+            }
+
+            main {
+                padding: 20px;
+            }
+            .placement_img_div{
+                
+                background-color:white;
+                height:60vh;
+                width:45vw;
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+                align-items: center;
+                border-radius: 20px;
+                margin-top:40px;
+                
+                
+            }
+            .placement_img{
+                width:40vw;
+                height:40vh;
+                border-radius: 20px;
+                
+            }
+            button{
+                background-color: #73a3d7;
+                border-radius: 10px;
+                color: #fff;
+                border: 0px;
+                height:40px;
+                width: 120px;
+                cursor: pointer;
+                margin-inline: 20px;
+                margin-top: 20px;
+                font-weight: bold;
+            }
+            main h2 {
+                margin-top: 0;
+            }
+
+            footer {
+                background-color: #333;
+                color: #fff;
+                padding: 10px 0;
+                text-align: center;
+                position: fixed;
+                bottom: 0;
+                width: 100%;
+            }
+            ul{
+                justify-content: center;
+            }
+            li{
+                margin-left: 10px;
+                margin-right: 10px;
+            }
+
+            footer p {
+                margin: 0;
+                height: 30px;
+                text-align: right;
+            }
+        </style>
+    </head>
+ <body> 
+    <header> 
+
+        <h1>Placement Management System</h1> 
+</header> 
+    <main> 
+        
+        <center>
+            <div class="placement_img_div">
+            <img class="placement_img"src="homepage_img.webp">
+            <div>
+                <button onclick="window.location.href='student_login.php';" target="_blank"> Student login</button>
+                <button onclick="window.location.href='company_login.php';" target="_blank">Company login</button>
+            </div>
+        </div>
+        </center>
+        
+    </main> 
+    <footer> 
+        <p >&copy; 2024 Placement Management System. All rights reserved.
+                 </p><footer> 
+    </body> 
+</html>
